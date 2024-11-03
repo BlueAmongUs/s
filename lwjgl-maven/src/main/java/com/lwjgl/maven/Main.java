@@ -1,12 +1,11 @@
 package com.lwjgl.maven;
 
-import com.lwjgl.Math.Color;
-import com.lwjgl.Window.*;
+import com.lwjgl.math.Color;
+import com.lwjgl.window.*;
 
 public class Main {
 	public static void main(String[] args) {
-		Window window = new Window("Hello, LWJGL!",800, 600);
-		window.setBg_color(Color.dark());
+		Window window = new Window(Color.dark());
 		window.run();
 	}
 }

@@ -1,4 +1,4 @@
-package com.lwjgl.Math;
+package com.lwjgl.math;
 
 public class Color {
 	private float red, green, blue, alpha;

@@ -1,4 +1,4 @@
-package com.lwjgl.Math;
+package com.lwjgl.math;
 
 public class Matrix2x2 {
 	private Vector2 i, j;
